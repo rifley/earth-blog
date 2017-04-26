@@ -1,0 +1,37 @@
+{{#if newPostShowing}}
+  <form class="post-form">
+    <div class="form-group">
+      <label for="author">Author</label>
+      {{input value=author id="author" required="required"}}
+    </div>
+
+    <div class="form-group">
+      <label for="title">Title</label>
+      {{input value=title id="title"}}
+    </div>
+
+    <div class="form-group">
+      <label for="date">Date</label>
+      {{input value=date id="date" type="date"}}
+    </div>
+
+    <div class="form-group">
+      <label for="snippet">Write a brief bit</label>
+      {{input value=snippet id="snippet"}}
+    </div>
+
+    <div class="form-group">
+      <label for="content">Body content</label>
+      {{input value=content id="content"}}
+    </div>
+
+    <div class="form-group">
+      <label for="image">Img link</label>
+      {{input value=image id="image"}}
+    </div>
+
+    <button {{action 'savePost'}}>Save</button>
+  </form>
+{{else}}
+<button {{action 'newPostShow'}}>Add a new post</button>
+{{/if}}
