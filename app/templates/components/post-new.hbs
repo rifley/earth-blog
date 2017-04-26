@@ -30,8 +30,8 @@
       {{input value=image id="image"}}
     </div>
 
-    <button{{action 'savePost'}}>Save</button>
+    <button class="btn btn-success" {{action 'savePost'}}>Save</button>
   </form>
 {{else}}
-<button {{action 'newPostShow'}}>Add a new post</button>
+<button class="btn btn-success" {{action 'newPostShow'}}>Add a new post</button>
 {{/if}}

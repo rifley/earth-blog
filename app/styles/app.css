@@ -4,3 +4,25 @@ h1{
  legend {
    text-align: center;
  }
+a, a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color: blue;
+}
+
+.post:hover {
+  animation: boop 500ms linear infinite;
+}
+@keyframes boop {
+  from {color: yellow;}
+  to {color: blue;}
+
+  0% {transform: rotate(0);}
+  25% {transform: rotate(10deg);}
+  50% {transform: rotate(0);}
+  75% {transform: rotate(-10deg);}
+  /*75% {transform: rotate(90deg);}*/
+  100% {transform: rotate(0);}
+}
