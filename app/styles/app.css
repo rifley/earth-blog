@@ -1,3 +1,29 @@
+body{
+  background-color:#f4a381;
+  color: black;
+}
+
+.jumbotron {
+  background-image: url("/img/orange.jpg");
+  background-size: cover;
+  text-align: CENTER;
+  margin-bottom: 0px;
+
+}
+.container{
+  margin-top: 0px;
+}
+.transparent-div{
+  background-color: rgba(0, 0, 0, .5);
+  /*box-shadow: 0 0 20px 10px rgba(0, 0, 0, .5);*/
+  padding: 30px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 15px;
+}
+.jumbotron h1{
+  color: white;
+}
 h1{
   text-align: center;
 }
@@ -25,4 +51,7 @@ a:hover{
   75% {transform: rotate(-10deg);}
   /*75% {transform: rotate(90deg);}*/
   100% {transform: rotate(0);}
+}
+.well {
+  background-color: rgba(0, 0, 0, 0.2);
 }

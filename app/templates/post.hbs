@@ -1,17 +1,25 @@
 <h1>{{model.title}}</h1>
 <h3>By {{model.author}}</h3>
-<img src={{model.image}} alt={{model.title}} width="100%">
-<p>
-  {{model.date}}
-</p>
-<p>
-  {{model.content}}
-</p>
+<div class="row">
+  <div class="col-md-6">
+    <img src={{model.image}} alt={{model.title}} width="100%">
+    <p>
+      {{model.date}}
+    </p>
+
+  </div>
+  <div class="col-md-6">
+    <p>
+      {{model.content}}
+    </p>
+  </div>
+</div>
+
 <button {{action 'delete' model}} class="btn btn-warning">Delete</button>
 {{post-update post=model update="update"}}
-
+<h3>Comments</h3>
 {{#each model.comments as |comment|}}
-  {{comment-tile comment=comment destroyComment="destroyComment"}}
+  {{comment-tile comment=comment destroyComment="destroyComment" updateComment="updateComment"}}
 {{/each}}
 
 
