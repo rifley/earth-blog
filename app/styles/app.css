@@ -1,8 +1,10 @@
 body{
-  background-color:#f4a381;
+  background-color:rgb(217, 217, 217);
   color: black;
 }
-
+.panel-body{
+  background-color: #c29b91;
+}
 .jumbotron {
   background-image: url("/img/orange.jpg");
   background-size: cover;
