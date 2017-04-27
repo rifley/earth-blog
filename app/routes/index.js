@@ -16,8 +16,6 @@ export default Ember.Route.extend({
   actions: {
     savePost(params) {
       var newPost = this.store.createRecord('post', params);
-      console.log("savePost happened");
-      console.log(newPost);
       newPost.save();
       this.transitionTo('index');
     },

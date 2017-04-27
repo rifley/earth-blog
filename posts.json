@@ -4,14 +4,32 @@
     "title": "How to Open Bananas",
     "date": "04/01/1987",
     "snippet": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "image": "http://2d0yaz2jiom3c6vy7e7e5svk.wpengine.netdna-cdn.com/wp-content/uploads/2014/10/goodall.jpg"
-    }, {
+    "content": "Lorem ipsum Bananas sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et Bananase magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure Bananas in reprehenderit in voluptate velit esse cillum Bananase eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "http://2d0yaz2jiom3c6vy7e7e5svk.wpengine.netdna-cdn.com/wp-content/uploads/2014/10/goodall.jpg",
+    "comments": [{
+      "author": "Stormi",
+      "date": "01/03/2016",
+      "commentContent": "Jane you good",
+      "post": "0"
+      }]
+  }, {
      "author": "Bill Nye",
      "title": "Climate Change for Dummies",
      "date": "03/17/2017",
      "snippet": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-     "image": "http://media.salon.com/2014/03/bill_nye.jpg"
-  }]
+     "image": "http://media.salon.com/2014/03/bill_nye.jpg",
+     "comments": [{
+       "author": "Stormi",
+       "date": "01/03/2016",
+       "commentContent": "Jane you good",
+       "post": "0"
+       }]
+  }],
+  "comments": [{
+    "author": "Stormi",
+    "date": "01/03/2016",
+    "commentContent": "Jane you good",
+    "post": "0"
+    }]
 }
